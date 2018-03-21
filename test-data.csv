@@ -1,0 +1,10 @@
+Condition,Time Step (milliseconds),Total Time (seconds),Number of Errors
+B,500,397.82,1
+A,300,312.21,12
+C,700,473.82,1
+C,700,470.55,0
+A,300,472.49,14
+B,500,360.23,1
+A,300,283.12,4
+C,700,441.99,0
+B,500,403.06,3
