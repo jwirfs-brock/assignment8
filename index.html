@@ -54,6 +54,9 @@
 				</tr>
 			</table>
 
+			<button class="accordion">Read about the user tests (click to expand)    +     </button>
+			<div class="panel">
+
 <h3>Test Methods</h3>
 <p>I tested three different time settings for the single-button switch mode (300 milliseconds, 500 milliseconds, 700 milliseconds). For each test, the task consisted of 8 equations (4 simple: 2 numbers (up to 2 digits) and 1 operator; 4 complex: 3 numbers (up to 3 digits) and 2 operators). I ran each test 3 times.</p>
 <p>I used a Python script to generate random equations for each test to mitigate for the results of having easier/harder number combinations (for example, 82 / 6 is easier to type than 77 - 7). <a href="https://github.com/jwirfs-brock/assignment8/blob/master/Testing%20Switch%20Mode%20Calculator.ipynb">You can see my scripts in a Jupyter notebook here.<a></p>
@@ -78,8 +81,8 @@
 			</ul>
 			<h3>If I had more time</h3>
 			<p>I tried implementing a radio button to set the time interval speed on single switch mode, but couldn't quite get that to work. Another solution might be to have a time interval slider. Being able to control the time interval would be key to implementing this system in the real world. Sometimes you favor accuracy (which means you would want a longer time interval), other times you might want speed.</p>
-			<p><i>Note: I'm not sure why not it "jumps" to the bottom of the page when you select a key with the spacebar. That didn't happen before I added all of the About content at the bottom of the page.</i></p>
-
+			<p><i>Note: I hid the user test info while using the calculator because for some reason it "jumps" to the bottom of the page when you select a key with the spacebar. That didn't happen when I didn't have the other content at the bottom of the page. I used <a href="https://www.w3schools.com/howto/howto_js_accordion.asp">this example from W3Schools</a> to help with the implementation of this feature.</i></p>
+</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
 		<script src="calculator.js" type="text/javascript"></script>
